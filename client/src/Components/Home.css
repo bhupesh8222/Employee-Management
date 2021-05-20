@@ -1,0 +1,13 @@
+.home_text{
+    text-align: center;
+}
+.home_align{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.home_bottom{
+    font-size: 400px;
+}

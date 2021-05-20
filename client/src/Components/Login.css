@@ -1,0 +1,7 @@
+.MuiContainer-root
+{
+    height: 100vh;
+    display: flex !important ;
+    flex-direction: column;
+    justify-content: center;
+}

@@ -1,0 +1,36 @@
+
+.reports{
+    padding: 40px;
+}
+
+.canvasjs-chart-canvas{
+    height: 55vh;
+}
+
+.canvasjs-chart-toolbar>button{
+    display: none !important;
+}
+
+.canvasjs-chart-toolbar{
+    display: none;
+}
+.canvasjs-chart-canvas{
+    padding-left: 30px;
+}
+
+.main_chart{
+    width: 60%;
+    
+}
+
+.div_main_chart{
+    display: flex;
+    justify-content: center;
+}
+
+.react-linechart-1621095670954>svg{
+    width: 100px !important;
+}
+.main_chart>div{
+    margin-bottom: 40px;
+}
