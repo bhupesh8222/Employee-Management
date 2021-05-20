@@ -1,7 +1,5 @@
 Employee management system , created with MERN stack.
 
-Complete aplication has been created as per "required document".
-
 Using session based authentication for users. Charts & graphs are created using Chart.js & Canvas.js.
 Used cloud MongoDD atlas database with express framework
 
