@@ -8,14 +8,14 @@ import axios from './axios';
 
 function Home() {
 	useEffect(() => {
-		axios
-			.post('/report', {
-				username: JSON.parse(localStorage.getItem('currentUser')).username,
-			})
-			.then((response) =>
-				localStorage.setItem('report', JSON.stringify(response.data))
-			)
-			.catch((err) => console.log(err));
+		// axios
+		// 	.post('/report', {
+		// 		username: JSON.parse(localStorage.getItem('currentUser')).username,
+		// 	})
+		// 	.then((response) =>
+		// 		localStorage.setItem('report', JSON.stringify(response.data))
+		// 	)
+		// 	.catch((err) => console.log(err));
 	});
 	const history = useHistory();
 	const logout = () => {
