@@ -32,6 +32,16 @@ function Home() {
 	};
 	return (
 		<div className='home'>
+			<div className='topNavBar'>
+				<div className='brand'>
+					<a>ABC RESTAURENT</a>
+				</div>
+				<div className='otherLinks'>
+					<a>Features</a>
+					<a>Home</a>
+					<a>Reports</a>
+				</div>
+			</div>
 			<div className='home_text'>
 				<h1>ABC</h1>
 				<h1>Restaurent</h1>
