@@ -1,0 +1,17 @@
+.counterBox{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.counterBox div{
+    width: 30px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+}

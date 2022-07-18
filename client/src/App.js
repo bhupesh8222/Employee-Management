@@ -2,9 +2,10 @@ import React, { useState, useEf } from 'react';
 import './App.css';
 import { Route, BrowserRouter as Router, Link, Switch } from 'react-router-dom';
 import Login from './Components/Login';
-import Home from './Components/Home';
+import { Home } from './Components/Home';
 import Order from './Components/Order';
 import { Report } from './Components/Report';
+import Navbar from './Components/Navbar.js';
 
 import axios from './Components/axios.js';
 
@@ -12,6 +13,7 @@ function App() {
 	/**/
 	return (
 		<div className='app'>
+			<Navbar />
 			<Router>
 				<Switch>
 					<Route path='/' exact component={Login} />

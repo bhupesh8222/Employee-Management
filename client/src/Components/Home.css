@@ -5,39 +5,15 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .home_bottom{
     font-size: 400px;
 }
 
-.topNavBar
-{
-    display: grid;
-    grid-template-columns: auto auto;
-    display: flex;
-    flex: 1 2;
-    justify-content: space-between;
-    background-color: black;
-    padding: 12px;
-    cursor: pointer;
-}
 
-.otherLinks{
-    display: flex;
-    flex-basis: 300px;
-    justify-content: space-between;
-}
 
-.topNavBar a{
-    font-size: 20px;
-    color: white;
-}
-
-.topNavBar div :hover {
-    background-color: rgb(192, 60, 60);
-}
 
 
 /* UNDERSTANDING GRID AREA PROPERTY */
